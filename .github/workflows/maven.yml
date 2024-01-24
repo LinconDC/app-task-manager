@@ -22,7 +22,8 @@ jobs:
         cache: maven
 
     - name: Change to project directory
-      run: cd $GITHUB_WORKSPACE/app-task-manager/backend
+      run: cd app-task-manager/app-task-manager/backend
+
 
     - name: Build with Maven
       run: mvn package
